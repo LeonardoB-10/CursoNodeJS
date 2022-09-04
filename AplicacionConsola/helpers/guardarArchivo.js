@@ -19,7 +19,7 @@ const leerDB =()=>{
     const info = fs.readFileSync(archivo, {encoding: 'utf-8'});
     const data = JSON.parse(info)
     console.log( data  );
-    return  data ;
+    return  data ;//Re escribe el archivo con los datos que ya tenia 
 }
 
 module.exports = {
