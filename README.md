@@ -3,28 +3,28 @@ setTimeout() para ejecutar una función una vez pasado un tiempo determinado.
 setImmediate() para ejecutar una función inmediatamente.
 setInterval() para ejecutar una función cada cierto tiempo.
 
-**Process.argv**  
+**Process.argv**  <br>
 Es un array de strings que contiene los argumentos de la línea de comandos. El primer elemento es process.execPath. El segundo elemento es el path del archivo que se está ejecutando. Los siguientes elementos serán cualquier argumento adicional..
 
-**Modele fs**
+**Modele fs** <br>
 https://www.w3schools.com/nodejs/nodejs_filesystem.asp
 Todos los metodos de este modulo son asincronos.
 FileSystem permite leer, escribir, crear, eliminar y renombrar archivos y directorios.
 File system (fs) es un módulo de Node.js que permite interactuar con el sistema de archivos.
  permite trabajar con el sistema de archivos de la computadora en la que se ejecuta el código.
 
-**Crear archivo npm**
+**Crear archivo npm**<br>
 npm init - para crear el archivo package.json   
 npm init -y - para crear el archivo package.json con los valores por defecto.
 
-**JSON.Parse**
+**JSON.Parse**<br>
 json.parse() es una función de JavaScript que analiza una cadena de texto como JSON, transformándola o convirtiéndola en un objeto JavaScript.
 typeof sirve para saber el tipo de dato de una variable.
 
-**JSON**
+**JSON**<br>
 Es un formato de texto ligero para el intercambio de datos. JSON es un subconjunto de la notación literal de objetos de JavaScript. JSON es independiente del lenguaje, pero utiliza convenciones que son familiares a los programadores de la familia C, incluyendo C, C++, C#, Java, JavaScript, Perl, Python y muchos otros. Estas propiedades hacen que JSON sea un lenguaje ideal para la comunicación de datos.
 
-**Dependencias en package.json**
+**Dependencias en package.json**<br>
 Las dependencias son paquetes que se instalan automáticamente cuando se instala el paquete principal. Las dependencias se especifican en el archivo package.json. Las dependencias se instalan en la carpeta node_modules.
 
 **Ejemplo de como instalar dependencias y desistalar dependencias**
