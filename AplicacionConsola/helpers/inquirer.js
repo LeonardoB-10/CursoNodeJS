@@ -1,10 +1,10 @@
 /////////////////////////////////////////////////////////////////////////////////
 //El !!await!! siempre debe de estar en una funcion asicronica para que funcione  
 /////////////////////////////////////////////////////////////////////////////////
-
 require("colors");
 const inquirer = require("inquirer");
 
+//https://www.npmjs.com/package/inquirer
 const menuPreguntas = [//recibe un arreglode objetos
   {
     type: "list",
@@ -50,9 +50,9 @@ const inquiereMenu = async () => {
   console.log("=========================\n".green);
 
   //Importante no olvidar las desestructurar 
-  const { opcion } = await inquirer.prompt(menuPreguntas); //accesiendo a las preguntas
+  const { opcion } = await inquirer.prompt(menuPreguntas); //recupero el valor de !!!value!!!! 
   console.log('\n');
-  return opcion;
+  return opcion;//retorna el valor de la opcion seleccionada 
 };
 
 
@@ -67,18 +67,18 @@ const pausa = async() => {
     }
   ];
   await inquirer.prompt(question)
-  
 };
 
 
 //await leerINput('descripcion: ')
 const leerINput = async(message)=>{
+
   const question = [
     {
-      type: 'input',
-      name: 'desc',
+      type: 'input',//tipo de pregunta 
+      name: 'desc1',
       message,
-      validate(value){
+      validate(value){   //validacion de la pregunta 
         if(value.length === 0){
           return 'Por favor ingrese un valor';
         }
@@ -90,8 +90,9 @@ const leerINput = async(message)=>{
   ////////////////////////////////////////////
   //Entender como funciona la detruccturaicon 
   ////////////////////////////////////////////
-  const  {desc}= await inquirer.prompt(question);
-  return desc;
+  const  {desc1} = await inquirer.prompt(question);  //desestructuracion de la pregunta 
+  console.log(desc1);//Para recuperar el valor solo el valor de respuesta del objeto y no el ket (objero completo)
+  return desc1;
 }
 
 const listadoTareasBorrar = async( tareas = [] ) => {
