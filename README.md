@@ -27,23 +27,23 @@ Es un formato de texto ligero para el intercambio de datos. JSON es un subconjun
 **Dependencias en package.json**<br>
 Las dependencias son paquetes que se instalan automáticamente cuando se instala el paquete principal. Las dependencias se especifican en el archivo package.json. Las dependencias se instalan en la carpeta node_modules.
 
-**Ejemplo de como instalar dependencias y desistalar dependencias**
+**Ejemplo de como instalar dependencias y desistalar dependencias**<br>
 npm install colors --save - para instalar dependencias
 npm uninstall colors --save - para desinstalar dependencias
 
-**Promesas**
+**Promesas**<br>
 Objeto que representa el eventual resultado o error  de una operacion asincrona.
 
-**Sevidor**
+**Sevidor**<br>
 Es un programa que espera a que un cliente se conecte a él para responder a sus solicitudes.
 
-**Protocolo HTTP**
+**Protocolo HTTP**<br>
 Es un protocolo de comunicación que se utiliza para la transferencia de información en la World Wide Web. Es un protocolo de capa de aplicación para sistemas de distribución de documentos hipermedia y sistemas de gestión de contenidos. Es el protocolo de comunicación por el que se rige la World Wide Web.
 
-**Protocolo**
+**Protocolo**<br>
 Es un conjunto de reglas que permiten a dos o más entidades comunicarse entre sí.
 
-**Codigo de estado HTTP**
+**Codigo de estado HTTP**<br>
 Es un código numérico de tres dígitos que indica el estado de la respuesta del servidor a una solicitud HTTP.
 Los códigos de estado HTTP se dividen en cinco clases: Respuestas informativas (100-199),
 Respuestas satisfactorias (200-299),
