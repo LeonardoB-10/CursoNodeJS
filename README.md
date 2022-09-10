@@ -49,3 +49,27 @@ Los códigos de estado HTTP se dividen en cinco clases: Respuestas informativas 
 Respuestas satisfactorias (200-299),
 Redirecciones (300-399),
 Errores de los clientes (400-499) y Errores de los servidores (500-599).
+
+**Patametros query**
+Son los parametros que se envian en la url despues del signo de interrogacion.
+y sirven para filtrar la informacion que se quiere obtener.
+
+**Metodos para req**
+req.params - para obtener los parametros de la url
+req.query - para obtener los parametros de la url despues del signo de interrogacion
+req.body - para obtener los parametros del body
+
+**Nodemon**
+Es una herramienta que ayuda a desarrollar aplicaciones basadas en node.js reiniciando automáticamente la aplicación node cuando se detectan cambios de archivo en el directorio.
+
+**Express**
+Es un framework de node.js que nos permite crear aplicaciones web de forma rápida y sencilla.
+Características de Express:
+- Rutas
+- Middleware
+- Plantillas
+- Manejo de errores
+- Integración con base de datos
+
+**Rest**
+Estilo de arquitectura de software para el diseño de servicios web. Se basa en el uso de HTTP para el intercambio de datos entre cliente y servidor. Es un estilo de arquitectura de software que define un conjunto de restricciones para crear servicios web.

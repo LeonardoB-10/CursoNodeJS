@@ -7,9 +7,6 @@ const Busqueda = require('./models/busquedas');
 require("colors"); //DE  PREFERENCIA SIEMPRE PRIMERO
 
 
-
-
-
 const main = async()=>{//FUNCION PRINCIPAL
     
     const busqueda = new Busqueda();
