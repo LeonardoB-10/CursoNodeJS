@@ -3,6 +3,9 @@ setTimeout() para ejecutar una función una vez pasado un tiempo determinado.
 setImmediate() para ejecutar una función inmediatamente.
 setInterval() para ejecutar una función cada cierto tiempo.
 
+## Siempre revisar la documentación de cada función.
+## Revisar la documentación de los otrs archivos READMI.
+
 **Process.argv**  <br>
 Es un array de strings que contiene los argumentos de la línea de comandos. El primer elemento es process.execPath. El segundo elemento es el path del archivo que se está ejecutando. Los siguientes elementos serán cualquier argumento adicional..
 
@@ -73,3 +76,24 @@ Características de Express:
 
 **Rest**
 Estilo de arquitectura de software para el diseño de servicios web. Se basa en el uso de HTTP para el intercambio de datos entre cliente y servidor. Es un estilo de arquitectura de software que define un conjunto de restricciones para crear servicios web.
+
+
+**express.Router()**
+Es un objeto que nos permite crear rutas para nuestra aplicación. 
+
+**dotenv**
+Es un paquete que nos permite cargar variables de entorno desde un archivo .env en nuestro proyecto.
+
+**Comandos mas usado en git**
+git pull - para traer los cambios del repositorio
+git status - para ver el estado del repositorio
+git log - para ver el historial de los cambios
+git checkout - para cambiar de rama
+git checkout -b "nombre de la rama" - para crear una rama
+git branch - para ver las ramas
+git branch -d "nombre de la rama" - para eliminar una rama
+git merge "nombre de la rama" - para unir una rama con la rama actual
+git remote -v - para ver los repositorios remotos
+git remote remove origin - para eliminar el repositorio remoto
+
+
