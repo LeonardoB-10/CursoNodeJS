@@ -7,13 +7,15 @@ app.get("/", (req, res) => {
   res.send(infoCursos);
 });
 
+//Se establece una ruta específica para el curso de programación
 const routerProgramacion = express.Router();
 app.use("/api/cursos/programacion", routerProgramacion);
 
+//res -> Enviar respuesta al cliente
 routerProgramacion.get("/", (req, res) => {
  //http://localhost:3000/api/cursos/programacion?ordenar=10
   console.log(req.query.ordenar);//10
-  res.send(JSON.stringify(infoCursos.programacion));
+  res.send(JSON.stringify(infoCursos.programacion));//Para mandar la informacion en formato json 
 });
 
 app.get("/api/cursos/matematicas", (req, res) => {

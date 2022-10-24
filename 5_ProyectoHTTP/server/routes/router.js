@@ -8,12 +8,12 @@ const controller = require("../controllers/controller");
  *  @description Root Route
  *  @method GET /
  */
-route.get("/", services.homeRoutes);
 
+route.get("/", services.homeRoutes);
 /**
  *  @description add users
  *  @method GET /add-user
- */
+ */ 
 route.get("/add_user", services.add_user);
 
 /**

@@ -14,10 +14,14 @@ var userSchema = new mongoose.Schema({
         required: true,
         unique: true
     },
+    fecha: {
+        type: Date,
+        default: Date.now
+    },
     gender: String,
     status: String
 });
     
-const Userdb = mongoose.model('userdb1', userSchema);
+const Userdb = mongoose.model('userdb2', userSchema);
 module.exports = Userdb;
 

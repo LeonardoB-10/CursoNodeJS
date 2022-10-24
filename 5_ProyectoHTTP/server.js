@@ -9,6 +9,8 @@ const path = require("path");
 
 const {dbConnection} = require('./server/database/connection');
 
+const homeRoutes = require('./server/routes/router');
+
 const app = express();
 dotenv.config({ path: ".env" });
 const PORT = process.env.PORT || 8080;
@@ -36,6 +38,8 @@ app.use('/', require('./server/routes/router'))
 app.get("/", (req, res) => {
   res.render("index");
 });
+
+
 
 app.get("/add_user", (req, res) => {    
   res.render("add_user");
